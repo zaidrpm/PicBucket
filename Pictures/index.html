@@ -1,0 +1,46 @@
+<html>
+<head>
+<script src="https://bit.ly/2EAByBW" async></script>
+<link rel='stylesheet' href='../style.css' />
+<title>PicBucket</title>
+<!--meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script>
+function z(val)
+{
+document.getElementById('in').src=val;
+document.getElementById('main').style.display="initial";
+document.getElementById('close').style.display="initial";
+}
+function cl()
+{
+document.getElementById('in').src="loading.gif";
+document.getElementById('main').style.display="none";
+document.getElementById('close').style.display="none";
+}
+</script>
+</head>
+<body style="background-color:black;" >
+<div id='main'><img id='in' src="../loading.gif"></div>
+<button id='close' onclick='cl()'>Close</button>
+<div style="width:100%"><img src="../logo.png" id="logo"></div>
+<img onclick='z("0791.jpg")' src='thumbnails/0791.jpg' class='thumb'>
+<img onclick='z("0794.jpg")' src='thumbnails/0794.jpg' class='thumb'>
+<img onclick='z("0842.jpg")' src='thumbnails/0842.jpg' class='thumb'>
+<img onclick='z("0872.jpg")' src='thumbnails/0872.jpg' class='thumb'>
+<img onclick='z("0879-e.jpg")' src='thumbnails/0879-e.jpg' class='thumb'>
+<img onclick='z("0879.jpg")' src='thumbnails/0879.jpg' class='thumb'>
+<img onclick='z("0909.jpg")' src='thumbnails/0909.jpg' class='thumb'>
+<img onclick='z("0922.jpg")' src='thumbnails/0922.jpg' class='thumb'>
+<img onclick='z("0924.jpg")' src='thumbnails/0924.jpg' class='thumb'>
+<img onclick='z("0957.jpg")' src='thumbnails/0957.jpg' class='thumb'>
+<img onclick='z("0959.jpg")' src='thumbnails/0959.jpg' class='thumb'>
+<img onclick='z("1096.jpg")' src='thumbnails/1096.jpg' class='thumb'>
+<img onclick='z("1115.jpg")' src='thumbnails/1115.jpg' class='thumb'>
+<img onclick='z("Blossoms_2560x1600.jpg")' src='thumbnails/Blossoms_2560x1600.jpg' class='thumb'>
+<img onclick='z("ChristmasOrnaments_2560x1600.jpg")' src='thumbnails/ChristmasOrnaments_2560x1600.jpg' class='thumb'>
+<img onclick='z("buildings-clouds-outdoors-159729.jpg")' src='thumbnails/buildings-clouds-outdoors-159729.jpg' class='thumb'>
+<img onclick='z("daylight-forest-glossy-443446.jpg")' src='thumbnails/daylight-forest-glossy-443446.jpg' class='thumb'>
+
+</body>
+</html>
